@@ -82,9 +82,8 @@ body, html{
 
 .thumbnailImage02Page{
   width: 100%;
-  height: 800px;
+  height: 600px;
   object-fit: contain;
-  /* margin-bottom: 10px; */
 }
 
 .thumbnailContanier03Page{
@@ -132,7 +131,6 @@ body, html{
 }
 
 #inspiration_title{
-  /* color: #00875d; */
   color: #026f4d;
 }
 
