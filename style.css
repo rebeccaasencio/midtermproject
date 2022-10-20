@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Neue', cursive;
+  background: rgb(234,87,246);
+  background: linear-gradient(0deg, rgba(234,87,246,1) 0%, rgba(40,178,233,1) 47%, rgba(76,223,76,1) 100%);
+}
+
+.PageContent{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.PageHeading01{
+  display: flex;
+  justify-content: center;
+  color: #006100;
+  font-size: 104px;
+  font-family: 'Rubik Bubbles', cursive;
+}
+
+.PageHeading02{
+  display: flex;
+  justify-content: center;
+  color: #015f60;
+  font-size: 104px;
+  font-family:'Rubik Bubbles', cursive;
+}
+
+.PageHeading03{
+  display: flex;
+  justify-content: center;
+  color: #5d4cc8;
+  font-size: 104px;
+  font-family:'Rubik Bubbles', cursive;
+}
+
+.PageHeading04{
+  display: flex;
+  justify-content: center;
+  font-size: 104px;
+  font-family: 'Rubik Bubbles', cursive;
+}
+
+.thumbnailContanier01Page{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.thumbnailItem01Page{
+  width: 100%;
+}
+
+.thumbnailImage01Page{
+  width: 100%;
+  height: 800px;
+  object-fit: contain;
+}
+
+#ConceptArtTitle{
+  font-size: 104px;
+}
+
+.thumbnailContanier02Page{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.thumbnailItem02Page{
+  width: 100%;
+}
+
+.thumbnailImage02Page{
+  width: 100%;
+  height: 800px;
+  object-fit: contain;
+  /* margin-bottom: 10px; */
+}
+
+.thumbnailContanier03Page{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.thumbnailItem03Page{
+  width: 100%;
+}
+
+.thumbnailImage03Page{
+  width: 100%;
+  height: 790px;
+  object-fit: contain;
+}
+
+.thumbnailContanier05{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumbnailItem05{
+  width: 100%;
+}
+
+.thumbnailImage05{
+  width: 100%;
+  height: 700px;
+  object-fit: contain;
+}
+
+#Story_title{
+  color: #007b31;
+}
+
+.AboutStory{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+#inspiration_title{
+  /* color: #00875d; */
+  color: #026f4d;
+}
+
+.AboutInspiration{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+.thumbnailContanier04{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.thumbnailItem04{
+  width: 100%;
+}
+
+.thumbnailImage04{
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
+.inspocaption_01{
+  display: block;
+  color: white;
+  font-size: 80px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inspocaption_02{
+  color: white;
+  font-size: 80px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.inspocaption_03{
+  color: white;
+  font-size: 80px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.originalthumbnailContanier{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.originalthumbnailItem{
+  width: 100%;
+}
+
+.originalthumbnailImage{
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
+.originalthumbnailItem > p{
+  text-align: center;
+  font-size: 24px;
+}
+
+.caption01{
+  color: white;
+  font-size: 60px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.caption02{
+  color: white;
+  font-size: 60px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.caption03{
+  color: white;
+  font-size: 60px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.npc_header{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+.Game_Prototype_Description{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+iframe{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#frame{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 3px;
+  width: 1000px;
+  height: 800px;
+}
+
+.TypeOfGame{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+.ControlsButton{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+#frame02{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 3px;
+  width: 1200px;
+  height: 800px;
+}
+
+.frames_for_prototype{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+
+#pixel_frames{
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 800px;
+  height: 1000px;
+}
+
+.thumbnail__Contanier{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.thumbnail__Item{
+  width: 100%;
+}
+
+.thumbnail__Image{
+  width: 100%;
+  height: 600px;
+  object-fit: contain;
+}
+
+.thumbnail__Item > p{
+  text-align: center;
+  font-size: 24px;
+}
+
+#Hints_header{
+  color: #860091;
+}
+
+.HintList{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 60px;
+}
+/* ---------------------- */
