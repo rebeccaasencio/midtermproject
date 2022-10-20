@@ -62,7 +62,7 @@ body, html{
 
 .thumbnailImage01Page{
   width: 100%;
-  height: 800px;
+  height: 600px;
   object-fit: contain;
 }
 
