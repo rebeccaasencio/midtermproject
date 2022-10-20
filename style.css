@@ -128,7 +128,7 @@ body, html{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 #inspiration_title{
@@ -140,7 +140,7 @@ body, html{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 .thumbnailContanier04{
@@ -162,7 +162,7 @@ body, html{
 .inspocaption_01{
   display: block;
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
@@ -170,7 +170,7 @@ body, html{
 
 .inspocaption_02{
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
@@ -178,7 +178,7 @@ body, html{
 
 .inspocaption_03{
   color: white;
-  font-size: 80px;
+  font-size: 60px;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
@@ -209,21 +209,21 @@ body, html{
 
 .caption01{
   color: white;
-  font-size: 60px;
+  font-size: 56px;
   margin: auto;
   margin-bottom: 20px;
 }
 
 .caption02{
   color: white;
-  font-size: 60px;
+  font-size: 56px;
   margin: auto;
   margin-bottom: 20px;
 }
 
 .caption03{
   color: white;
-  font-size: 60px;
+  font-size: 56px;
   margin: auto;
   margin-bottom: 20px;
 }
@@ -232,14 +232,14 @@ body, html{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 .Game_Prototype_Description{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 iframe{
@@ -262,14 +262,14 @@ iframe{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 .ControlsButton{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 #frame02{
@@ -285,7 +285,7 @@ iframe{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
 
 #pixel_frames{
@@ -327,5 +327,5 @@ iframe{
   display: flex;
   justify-content: center;
   color: white;
-  font-size: 60px;
+  font-size: 56px;
 }
