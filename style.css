@@ -290,14 +290,14 @@ iframe{
   display: block;
   margin: auto;
   margin-top: 20px;
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
 }
 
 .thumbnail__Contanier{
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 10px;
   margin-top: 20px;
 }
