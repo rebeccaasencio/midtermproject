@@ -312,10 +312,10 @@ iframe{
   object-fit: contain;
 }
 
-.thumbnail__Item > p{
+/* .thumbnail__Item > p{
   text-align: center;
   font-size: 24px;
-}
+} */
 
 #Hints_header{
   color: #860091;
