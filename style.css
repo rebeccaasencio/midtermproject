@@ -18,6 +18,16 @@ body, html{
   margin-right: 50px;
 }
 
+.menuBar{
+  background-color: plum;
+  color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 75px;
+  font-size: 30px;
+}
+
 .PageHeading01{
   display: flex;
   justify-content: center;
