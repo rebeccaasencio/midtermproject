@@ -26,6 +26,7 @@ body, html{
   justify-content: flex-start;
   height: 75px;
   font-size: 30px;
+  width: 100%;
 }
 
 .PageHeading01{
