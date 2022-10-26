@@ -22,7 +22,7 @@ body, html{
   color: purple;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   height: 75px;
   font-size: 30px;
 }
