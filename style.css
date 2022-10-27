@@ -24,7 +24,8 @@ body, html{
   color: white;
   height: 60px;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 30px;
+  margin-right: 20px;
 }
 .menuBar a:hover{
   color: darkgreen;
