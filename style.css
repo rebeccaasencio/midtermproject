@@ -20,7 +20,7 @@ body, html{
 
 .menuBar a{
   display: flex;
-  background-color: plum;
+  align-items: center;
   justify-content: flex-start;
   color: white;
   height: 60px;
@@ -32,34 +32,29 @@ body, html{
   color: darkgreen;
 }
 .menuBar ul{
-  background-color: plum;
   list-style: none;
   display: flex;
 }
 .menuBar li{
-  background-color: plum;
   position: relative;
+  width: 100%;
   text-align: center;
 }
 .menuBar li:hover .DropDownMenu > li{
   display: block;
-  background-color: plum;
   top: 0;
 }
 .DropDownMenu li{
-  background-color: plum;
   display: none;
   position: relative;
 }
 .DropDownMenu{
-  background-color: plum;
   position: absolute;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 .DropDownMenu li:hover{
-  background-color: plum;
   display: block;
 }
 
