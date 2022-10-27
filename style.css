@@ -21,19 +21,16 @@ body, html{
 
 .menu-area a{
   display: flex;
-  background: darkgreen;
+  /* background: darkgreen; */
   align-items: center;
   justify-content: flex-start;
   color: black;
   height: 60px;
-  font-family:Poppins;
-  font-weight: bold;
   text-decoration: none;
-  padding-left: 40px;
 
 }
 .menu-area a:hover{
-	background: darkgreen;
+	/* background: darkgreen; */
   color: pink;
 }
 .menu-area ul{
