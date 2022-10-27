@@ -27,7 +27,8 @@ body, html{
   color: black;
   height: 60px;
   text-decoration: none;
-
+  margin-left: 0;
+  font-size: 30px;
 }
 .menu-area a:hover{
 	/* background: darkgreen; */
