@@ -20,16 +20,12 @@ body, html{
 
 .menuBar a{
   display: flex;
-  background-color: plum;
   align-items: center;
   justify-content: flex-start;
   color: white;
   height: 60px;
   text-decoration: none;
   font-size: 35px;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
 }
 .menuBar a:hover{
   background-color: plum;
