@@ -14,8 +14,8 @@ body, html{
 }
 
 .PageContent{
-  /* margin-left: 50px;
-  margin-right: 50px; */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 /* <-------------> */
 
@@ -31,7 +31,7 @@ body, html{
 }
 .menu-area a:hover{
 	/* background: darkgreen; */
-  color: magenta;
+  color: darkgreen;
 }
 .menu-area ul{
   list-style: none;
