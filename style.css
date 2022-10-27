@@ -24,10 +24,10 @@ body, html{
   color: white;
   height: 60px;
   text-decoration: none;
-  font-size: 30px;
-  margin-right: 20px;
+  font-size: 35px;
 }
 .menuBar a:hover{
+  background-color: plum;
   color: darkgreen;
 }
 .menuBar ul{
