@@ -14,15 +14,12 @@ body, html{
 }
 
 .PageContent{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-/* <-------------> */
 
 .menuBar a{
   display: flex;
-  /* background: darkgreen; */
-  /* align-items: center; */
   justify-content: flex-start;
   color: white;
   height: 60px;
@@ -30,7 +27,6 @@ body, html{
   font-size: 30px;
 }
 .menuBar a:hover{
-	/* background: darkgreen; */
   color: darkgreen;
 }
 .menuBar ul{
@@ -38,11 +34,7 @@ body, html{
   display: flex;
 }
 .menuBar li{
-  /* position: relative; */
-  position: fixed;
-  top: 30px;
-  left: 30px;
-  width: 100%;
+  position: relative;
   text-align: center;
 }
 .menuBar li:hover .DropDownMenu > li{
@@ -62,48 +54,6 @@ body, html{
 .DropDownMenu li:hover{
   display: block;
 }
-
-
-
-
-
-
-
-
-
-/* <-------------> */
-/* .menuBar{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 75px;
-  font-size: 50px;
-  background-color: Darkgreen;
-} */
-
-/* .navLink{
-  margin-left: 25px;
-  margin-right: 25px;
-  text-decoration: none;
-}
-
-a:link{
-  color: white;
-}
-
-a:visited{
-  color: white;
-}
-
-a:hover{
-color: lightpink;
-}
-
-a:active{
-  color: white;
-} */
-
-/* <------------> */
 
 .Context{
   display: flex;
@@ -391,7 +341,6 @@ iframe{
 .thumbnail__Contanier{
   display: flex;
   justify-content: center;
-  /* flex-direction: column; */
   gap: 10px;
   margin-top: 20px;
 }
@@ -405,11 +354,6 @@ iframe{
   height: 600px;
   object-fit: contain;
 }
-
-/* .thumbnail__Item > p{
-  text-align: center;
-  font-size: 24px;
-} */
 
 #Hints_header{
   color: #860091;
