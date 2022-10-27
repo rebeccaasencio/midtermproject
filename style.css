@@ -37,7 +37,7 @@ body, html{
 }
 .menuBar li{
   position: relative;
-  width: 100px;
+  width: 200px;
   text-align: center;
 }
 .menuBar li:hover .DropDownMenu > li{
