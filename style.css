@@ -19,7 +19,7 @@ body, html{
 }
 /* <-------------> */
 
-.menu-area a{
+.menuBar a{
   display: flex;
   /* background: darkgreen; */
   /* align-items: center; */
@@ -27,36 +27,36 @@ body, html{
   color: white;
   height: 60px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 50px;
 }
-.menu-area a:hover{
+.menuBar a:hover{
 	/* background: darkgreen; */
   color: darkgreen;
 }
-.menu-area ul{
+.menuBar ul{
   list-style: none;
   display: flex;
 }
-.menu-area li{
+.menuBar li{
   position: relative;
   width: 100%;
   text-align: center;
 }
-.menu-area li:hover .dropdown-1 > li{
+.menuBar li:hover .DropDownMenu > li{
   display: block;
   top: 0;
 }
-.dropdown-1 li{
+.DropDownMenu li{
   display: none;
   position: relative;
 }
-.dropdown-1{
+.DropDownMenu{
   position: absolute;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-.dropdown-1 li:hover{
+.DropDownMenu li:hover{
   display: block;
 }
 
@@ -101,6 +101,13 @@ a:active{
 } */
 
 /* <------------> */
+
+.Intro_Context{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 42px;
+}
 
 .PageHeading01{
   display: flex;
