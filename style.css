@@ -29,7 +29,7 @@ body, html{
 }
 .menuBar a:hover{
   background-color: plum;
-  color: darkgreen;
+  color: white;
 }
 .menuBar ul{
   list-style: none;
