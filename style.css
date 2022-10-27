@@ -35,25 +35,28 @@ body, html{
   display: flex;
 }
 .menuBar li{
+  background-color: plum;
   position: relative;
   text-align: center;
 }
 .menuBar li:hover .DropDownMenu > li{
-  background-color: plum;
   display: block;
   top: 0;
 }
 .DropDownMenu li{
+  background-color: plum;
   display: none;
   position: relative;
 }
 .DropDownMenu{
+  background-color: plum;
   position: absolute;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 .DropDownMenu li:hover{
+  background-color: plum;
   display: block;
 }
 
