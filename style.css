@@ -17,17 +17,71 @@ body, html{
   margin-left: 50px;
   margin-right: 50px;
 }
+/* <-------------> */
 
-.menuBar{
+.menu-area a{
+  display: flex;
+  background: darkgreen;
+  align-items: center;
+  justify-content: flex-start;
+  color: black;
+  height: 60px;
+  font-family:Poppins;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 40px;
+
+}
+.menu-area a:hover{
+	background: darkgreen;
+  color: pink;
+}
+.menu-area ul{
+  list-style: none;
+  display: flex;
+}
+.menu-area li{
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.menu-area li:hover .dropdown-1 > li{
+  display: block;
+  top: 0;
+}
+.dropdown-1 li{
+  display: none;
+  position: relative;
+}
+.dropdown-1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.dropdown-1 li:hover{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+/* <-------------> */
+/* .menuBar{
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 75px;
   font-size: 50px;
   background-color: Darkgreen;
-}
+} */
 
-.navLink{
+/* .navLink{
   margin-left: 25px;
   margin-right: 25px;
   text-decoration: none;
@@ -47,7 +101,9 @@ color: lightpink;
 
 a:active{
   color: white;
-}
+} */
+
+/* <------------> */
 
 .PageHeading01{
   display: flex;
